@@ -1,7 +1,8 @@
 <p><img align="left"src="https://github.com/theidari/eatsafe_love/blob/master/asset/header.png" width="200px"></br><p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, <i><b>Eat Safe, Love</b></i>, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.</p></p>
 <hr>
 
-<h3>How to Use</h3>
+
+<h3>Part 1: Database Set Up</h3>
 <ol>
 <li>Connect to MongoDB and lunch mongosh</li>
 <ul>
@@ -11,11 +12,10 @@
 <li>Create the database uk_food with <code>use uk_food</code></li>
 <li>Create the collection establishments with <code>db.createCollection("establishments")</code></li>
 <li>Import the dataset with <code>mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json</code> from data directory</li>
-<li>Use <a href="https://github.com/theidari/eatsafe_love/tree/master/code">Code</a>.
+</ol>
 
-<p><b>Part 1: Database and Jupyter Notebook Set Up</b></p>
-<p><b>Part 2: Update the Database</b></p>
-<p><b>Part 3: Exploratory Analysis</b></p>
+<h3>Part 2: Update the Database</h3>
+<h3>Part 3: Exploratory Analysis</h3>
 
 <h3>References</h3>
 
