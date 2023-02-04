@@ -19,6 +19,7 @@
 <img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_up.png" width="900">
 <ol>
 Add new restaurant to database.
+</ol>
 <img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_down.png" width="900">
 
 <h3>Part 3: Exploratory Analysis</h3>
