@@ -1,8 +1,8 @@
-<p><img align="left"src="https://github.com/theidari/eatsafe_love/blob/master/asset/header.png" width="200px"></br><p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, <i><b>Eat Safe, Love</b></i>, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.</p></p>
-<hr>
+<p><img align="left"src="https://github.com/theidari/eatsafe_love/blob/master/asset/header.png" width="200px"></br><p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, <i><b>Eat Safe, Love</b></i>, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.</p></p></br></br></br>
 
 
 <h3>Part 1: Database Set Up</h3>
+<img src="https://github.com/theidari/theidari/blob/main/IMG/language_and_tools_up.png" width="720"></br>
 <ol>
 <li>Connect to MongoDB and lunch mongosh</li>
 <ul>
@@ -13,6 +13,7 @@
 <li>Create the collection establishments with <code>db.createCollection("establishments")</code></li>
 <li>Import the dataset with <code>mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json</code> from data directory</li>
 </ol>
+<img src="https://github.com/theidari/theidari/blob/main/IMG/language_and_tools_down.png" width="720">
 
 <h3>Part 2: Update the Database</h3>
 <h3>Part 3: Exploratory Analysis</h3>
