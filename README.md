@@ -2,7 +2,7 @@
 
 
 <h3>Part 1: Database Set Up</h3>
-<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_up.png" width="900"></br>
+<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_up.png" width="900">
 <ol>
 <li>Connect to MongoDB and lunch mongosh</li>
 <ul>
@@ -16,7 +16,14 @@
 <img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_down.png" width="900">
 
 <h3>Part 2: Update the Database</h3>
+<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_up.png" width="900">
+<ol>
+Add new restaurant to database.
+<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_down.png" width="900">
+
 <h3>Part 3: Exploratory Analysis</h3>
+<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_up.png" width="900">
+<img src="https://github.com/theidari/eatsafe_love/blob/master/asset/line_down.png" width="900">
 
 <h3>References</h3>
 
